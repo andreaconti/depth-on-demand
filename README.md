@@ -74,7 +74,7 @@ Once the reconstruction is done, playback can be executed multiple times at diff
 
 Finally, the **Render Video** button allows to save a demo video and also to **save all the predictions of Depth on Demand** using the `save frames` checkbox. Results are saved in the `renders` directory
 
-# Citation
+## Citation
 
 ```bibtex
 @InProceedings{
