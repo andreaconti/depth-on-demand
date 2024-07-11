@@ -1,0 +1,22 @@
+args:
+  root_raw: data/kitti/raw
+  root_completion: data/kitti/depth_completion
+  batch_size: 1
+  load_prevs: 0
+  shuffle_keyframes: false
+  order_sources_by_pose: false
+  load_hints_pcd: true
+  keyframes: standard
+  min_depth: 0.001
+  max_depth: 80.00
+
+inference:
+  depth_hints:
+    density: null
+    interval: 10
+    hints_from_pcd: true
+    pnp_pose: true
+  source:
+    interval: ${inference.depth_hints.interval}
+  model_eval_params:
+    n_cycles: 10

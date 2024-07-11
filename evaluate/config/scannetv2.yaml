@@ -1,0 +1,27 @@
+args:
+  root: data/scannetv2
+  batch_size: 1
+  load_prevs: 0
+  shuffle_keyframes: false
+  order_sources_by_pose: false
+  keyframes: standard
+  min_depth: 0.0
+  max_depth: 10.0
+
+tsdf_fusion:
+  engine: open3d
+  depth_scale: 1
+  depth_trunc: 3
+  sdf_trunc: 0.12
+  voxel_length: 0.04
+
+inference:
+  depth_hints:
+    interval: 5
+    density: 500
+    hints_from_pcd: false
+    pnp_pose: false
+  source:
+    interval: 5
+  model_eval_params:
+    n_cycles: 10
