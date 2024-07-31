@@ -77,7 +77,7 @@ Finally, the **Render Video** button allows to save a demo video and also to **s
 ## Citation
 
 ```bibtex
-@InProceedings{
+@InProceedings{DoD_Conti24,
     author    = {Conti, Andrea and Poggi, Matteo and Cambareri, Valerio and Mattoccia, Stefano},
     title     = {Depth on Demand: Streaming Dense Depth from a Low Frame-Rate Active Sensor},
     booktitle = {European Conference on Computer Vision (ECCV)},
