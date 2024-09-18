@@ -1,5 +1,5 @@
 <h1 align="center">
-<a href="">Depth on Demand: Streaming Dense Depth from a Low Frame-Rate Active Sensor</a>
+<a href="https://arxiv.org/pdf/2409.08277">Depth on Demand: Streaming Dense Depth from a Low Frame-Rate Active Sensor</a>
 </h1>
 
 <p>
@@ -13,7 +13,7 @@
     <a href="http://vision.deis.unibo.it/~smatt/Site/Home.html">Stefano Mattoccia</a>
 </div>
 <div align="center">
-    <a href="">[Arxiv]</a>
+    <a href="https://arxiv.org/pdf/2409.08277">[Arxiv]</a>
     <a href="https://andreaconti.github.io/projects/depth_on_demand">[Project Page]</a>
 </div>
 </p>

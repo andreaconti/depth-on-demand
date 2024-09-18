@@ -38,3 +38,4 @@ dependencies:
     - git+https://github.com/PoseLib/PoseLib.git
     - git+https://github.com/cvg/LightGlue.git
     - gdown
+
