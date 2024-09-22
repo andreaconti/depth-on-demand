@@ -18,7 +18,10 @@
 </div>
 </p>
 
-In this repo we provide __evaluation__ code for our paper, it allows to load the pre-trained models on ScanNetV2, TartanAir and KITTI. Please note that <u>we do not provide the source code of our models</u> but only compiled binaries to perform inference.
+![](https://andreaconti.github.io/projects/depth_on_demand/images/setup_example.png)
+
+We propose Depth on Demand (DoD), a framework addressing the three major issues related to active depth sensors in streaming dense depth maps: spatial sparsity, limited frame rate and energy consumption of the depth sensors. DoD allows streaming high-resolution depth from an RGB camera and a depth sensor without requiring the depth sensor neither to be dense nor to match the frame rate of the RGB camera. Depth on Demand aims to improve the temporal resolution of an active depth sensor by utilizing the higher frame rate of an RGB camera. It estimates depth for each RGB frame, even for those that do not have direct depth sensor measurements.
+
 
 ### Install
 
